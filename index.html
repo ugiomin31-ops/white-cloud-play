@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#171c24">
+<title>하얀 구름</title>
+<style>
+html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #171c24; color: #eee;
+  touch-action: none; overscroll-behavior: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+  font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+#canvas { display: block; position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; outline: none; }
+.overlay { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; text-align: center; padding: 24px; box-sizing: border-box; }
+#status { background: #171c24; }
+#status h1 { margin: 0; font-size: 30px; letter-spacing: 2px; }
+#bar { width: min(70vw, 420px); height: 8px; background: #ffffff22; border-radius: 4px; overflow: hidden; }
+#fill { height: 100%; width: 0; background: #edc75c; transition: width .2s; }
+#msg { opacity: .75; font-size: 15px; }
+#rotate { display: none; background: #171c24ee; z-index: 5; }
+#rotate b { font-size: 20px; }
+#rotate button, #fs { font: inherit; color: #1a1408; background: #edc75c; border: 0; border-radius: 10px; padding: 10px 18px; font-weight: 700; }
+#fs { position: fixed; left: calc(env(safe-area-inset-left) + 10px); top: calc(env(safe-area-inset-top) + 62px); padding: 6px 14px; font-size: 13px; opacity: 0.85; z-index: 4; display: none;
+  background: #0008; color: #fff; padding: 8px 12px; font-size: 13px; font-weight: 500; }
+@media (orientation: portrait) and (pointer: coarse) { #rotate.on { display: flex; } }
+</style>
+<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
+<link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
+
+</head>
+<body>
+<canvas id="canvas" tabindex="0">이 브라우저는 HTML5 canvas를 지원하지 않습니다.</canvas>
+<div id="status" class="overlay"><h1>하얀 구름</h1><div id="bar"><div id="fill"></div></div><div id="msg">엔진 불러오는 중…</div></div>
+<div id="rotate" class="overlay on"><b>📱 가로로 돌려 주세요</b><div>가로 화면에서 가장 잘 보입니다.</div><button id="rotok">세로로 계속하기</button></div>
+<button id="fs">전체 화면</button>
+<script src="index.js"></script>
+<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":7930076,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_THREADS_ENABLED = false;
+const engine = new Engine(GODOT_CONFIG);
+const $ = (id) => document.getElementById(id);
+$('rotok').onclick = () => $('rotate').classList.remove('on');
+const canFs = document.fullscreenEnabled || document.webkitFullscreenEnabled;
+if (canFs && matchMedia('(pointer: coarse)').matches) {
+  $('fs').style.display = 'block';
+  $('fs').onclick = () => {
+    const el = document.documentElement;
+    (el.requestFullscreen || el.webkitRequestFullscreen).call(el, { navigationUI: 'hide' }).then(() => {
+      if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(() => {});
+    }).catch(() => {});
+  };
+  document.addEventListener('fullscreenchange', () => { $('fs').style.display = document.fullscreenElement ? 'none' : 'block'; });
+}
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+const missing = Engine.getMissingFeatures({ threads: GODOT_THREADS_ENABLED });
+if (missing.length) {
+  $('msg').textContent = '이 브라우저에서는 실행할 수 없습니다: ' + missing.join(', ');
+} else {
+  engine.startGame({
+    onProgress: (cur, total) => { if (total > 0) $('fill').style.width = (cur / total * 100) + '%'; },
+  }).then(() => { $('status').remove(); }, (err) => { $('msg').textContent = '실행 실패: ' + err; console.error(err); });
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+{
+ "packs": [
+  {
+   "name": "chars",
+   "file": "chars.pck",
+   "bytes": 24840688,
+   "md5": "3cb6468d0165bbc823679ca2876de9d7"
+  },
+  {
+   "name": "env1",
+   "file": "env1.pck",
+   "bytes": 43866684,
+   "md5": "f9b9ab29ecedbfe93161b6dcf340aa57"
+  },
+  {
+   "name": "env2",
+   "file": "env2.pck",
+   "bytes": 45008880,
+   "md5": "9f84eb5b2623da7cf3ce0fe059739c6b"
+  },
+  {
+   "name": "env3",
+   "file": "env3.pck",
+   "bytes": 39206092,
+   "md5": "2304bb222e0189fc371b577b21bcf306"
+  },
+  {
+   "name": "monsters",
+   "file": "monsters.pck",
+   "bytes": 13988760,
+   "md5": "75ead438d28f27710102f21dfc45188b"
+  },
+  {
+   "name": "weapons1",
+   "file": "weapons1.pck",
+   "bytes": 38353508,
+   "md5": "3128a5a2ad5b466155ddd62ba3e8c5a4"
+  },
+  {
+   "name": "weapons2",
+   "file": "weapons2.pck",
+   "bytes": 22501508,
+   "md5": "46d11bd15380649dc34d4d012deb4c14"
+  },
+  {
+   "name": "fx1",
+   "file": "fx1.pck",
+   "bytes": 44189524,
+   "md5": "682686725490c631b0c29ad0f07c9b7a"
+  },
+  {
+   "name": "fx2",
+   "file": "fx2.pck",
+   "bytes": 8822348,
+   "md5": "bb6998bedae1b8dd8d6f4c162933d69c"
+  }
+ ]
+}
