@@ -3,62 +3,62 @@
   {
    "name": "chars",
    "file": "chars.pck",
-   "bytes": 24765468,
-   "md5": "ad4e6e5b339243f49d204d77acaf1ddb"
+   "bytes": 24765596,
+   "md5": "dc12135dec3a18d23f6ee1e4172c66c4"
   },
   {
    "name": "env1",
    "file": "env1.pck",
-   "bytes": 44057108,
-   "md5": "0379e56a023ab989325162f294c56359"
+   "bytes": 44057236,
+   "md5": "237c5e8580f4bb6cf7bd1d7c5c5a9169"
   },
   {
    "name": "env2",
    "file": "env2.pck",
-   "bytes": 43387252,
-   "md5": "e8a08d1fc0fd3e9f82de912e5d5cb3bf"
+   "bytes": 43387380,
+   "md5": "8ca8f53b3444058637ae153cd7a3360c"
   },
   {
    "name": "env3",
    "file": "env3.pck",
-   "bytes": 41538848,
-   "md5": "7937c480180b15ff8cec680c566d7261"
+   "bytes": 41538976,
+   "md5": "e126fa8d27522e94ad5d21dd16acc2a4"
   },
   {
    "name": "monsters",
    "file": "monsters.pck",
-   "bytes": 20986068,
-   "md5": "4916bb488c2938e7d7b3f44e384add75"
+   "bytes": 20986196,
+   "md5": "42f155fe407a314b728e0afe4c20138a"
   },
   {
    "name": "weapons",
    "file": "weapons.pck",
-   "bytes": 12417256,
-   "md5": "e36aac966a7e03152ba49caec94851b5"
+   "bytes": 12417384,
+   "md5": "d1e52a88aad87ceb0906005bf6d0aa04"
   },
   {
    "name": "fx",
    "file": "fx.pck",
-   "bytes": 20207972,
-   "md5": "e0cdf377fa3517da12bf8e7a6f4d1ebb"
+   "bytes": 20208100,
+   "md5": "da0d46ca85f4f15eb49b00faedbe209b"
   },
   {
    "name": "npcs",
    "file": "npcs.pck",
-   "bytes": 27007500,
-   "md5": "50c6ae7c60f747f1ec229cf193c7c25a"
+   "bytes": 27007628,
+   "md5": "fd5d037c4753ee053a4c3c14e853d4b4"
   },
   {
    "name": "intro",
    "file": "intro.pck",
-   "bytes": 20459548,
-   "md5": "ea92fd0f2bf5372bd0a75e3624e2646b"
+   "bytes": 20459676,
+   "md5": "c769dcd476faf5e778b98fa64f07e535"
   },
   {
    "name": "env_cc0",
    "file": "env_cc0.pck",
-   "bytes": 3576660,
-   "md5": "33ad67721bb464ea80ea1e3b52d07526"
+   "bytes": 3576788,
+   "md5": "81d8c0d5685bb107efff562eb044fb6c"
   }
  ]
 }
