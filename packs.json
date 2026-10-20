@@ -27,50 +27,26 @@
   {
    "name": "monsters",
    "file": "monsters.pck",
-   "bytes": 25434324,
-   "md5": "91af5768ead0e1346182b3d1d95842e6"
+   "bytes": 20986068,
+   "md5": "4916bb488c2938e7d7b3f44e384add75"
   },
   {
-   "name": "weapons1",
-   "file": "weapons1.pck",
-   "bytes": 38382720,
-   "md5": "c6d5591b85a0d8926bcabd58af597682"
+   "name": "weapons",
+   "file": "weapons.pck",
+   "bytes": 12417256,
+   "md5": "e36aac966a7e03152ba49caec94851b5"
   },
   {
-   "name": "weapons2",
-   "file": "weapons2.pck",
-   "bytes": 22530720,
-   "md5": "5cdf4302f1bd6ba030123c5ff7842567"
-  },
-  {
-   "name": "fx1",
-   "file": "fx1.pck",
-   "bytes": 45001776,
-   "md5": "0f481e9adac2ee44c7d92693f6629459"
-  },
-  {
-   "name": "fx2",
-   "file": "fx2.pck",
-   "bytes": 41304668,
-   "md5": "d291623e48f04a919e00657859320f57"
-  },
-  {
-   "name": "fx3",
-   "file": "fx3.pck",
-   "bytes": 42648840,
-   "md5": "4f6fa63c592905ce78b217b34a10b6c5"
-  },
-  {
-   "name": "fx4",
-   "file": "fx4.pck",
-   "bytes": 41297616,
-   "md5": "e07397ee682c44e6c948596e6c1f6408"
+   "name": "fx",
+   "file": "fx.pck",
+   "bytes": 20207972,
+   "md5": "e0cdf377fa3517da12bf8e7a6f4d1ebb"
   },
   {
    "name": "npcs",
    "file": "npcs.pck",
-   "bytes": 44822492,
-   "md5": "765d438ffb5d52dae5dc5840697ccbb4"
+   "bytes": 27007500,
+   "md5": "50c6ae7c60f747f1ec229cf193c7c25a"
   },
   {
    "name": "intro",
