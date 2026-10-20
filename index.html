@@ -44,6 +44,10 @@ if (canFs && matchMedia('(pointer: coarse)').matches) {
     (el.requestFullscreen || el.webkitRequestFullscreen).call(el, { navigationUI: 'hide' }).catch(() => {});
   };
   document.addEventListener('fullscreenchange', () => { $('fs').style.display = document.fullscreenElement ? 'none' : 'block'; });
+  // the chip sits over the game's top-left help line: offer it briefly, then get out of the way
+  const fsAway = () => { $('fs').style.display = 'none'; };
+  setTimeout(fsAway, 12000);
+  $('canvas').addEventListener('pointerdown', fsAway, { once: true });
 }
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 const missing = Engine.getMissingFeatures({ threads: GODOT_THREADS_ENABLED });
