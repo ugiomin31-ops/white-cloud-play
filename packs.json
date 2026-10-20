@@ -3,56 +3,86 @@
   {
    "name": "chars",
    "file": "chars.pck",
-   "bytes": 24840688,
-   "md5": "3cb6468d0165bbc823679ca2876de9d7"
+   "bytes": 24765468,
+   "md5": "ad4e6e5b339243f49d204d77acaf1ddb"
   },
   {
    "name": "env1",
    "file": "env1.pck",
-   "bytes": 43866684,
-   "md5": "f9b9ab29ecedbfe93161b6dcf340aa57"
+   "bytes": 44057108,
+   "md5": "0379e56a023ab989325162f294c56359"
   },
   {
    "name": "env2",
    "file": "env2.pck",
-   "bytes": 45008880,
-   "md5": "9f84eb5b2623da7cf3ce0fe059739c6b"
+   "bytes": 43387252,
+   "md5": "e8a08d1fc0fd3e9f82de912e5d5cb3bf"
   },
   {
    "name": "env3",
    "file": "env3.pck",
-   "bytes": 39206092,
-   "md5": "2304bb222e0189fc371b577b21bcf306"
+   "bytes": 41538848,
+   "md5": "7937c480180b15ff8cec680c566d7261"
   },
   {
    "name": "monsters",
    "file": "monsters.pck",
-   "bytes": 13988760,
-   "md5": "75ead438d28f27710102f21dfc45188b"
+   "bytes": 25434324,
+   "md5": "91af5768ead0e1346182b3d1d95842e6"
   },
   {
    "name": "weapons1",
    "file": "weapons1.pck",
-   "bytes": 38353508,
-   "md5": "3128a5a2ad5b466155ddd62ba3e8c5a4"
+   "bytes": 38382720,
+   "md5": "c6d5591b85a0d8926bcabd58af597682"
   },
   {
    "name": "weapons2",
    "file": "weapons2.pck",
-   "bytes": 22501508,
-   "md5": "46d11bd15380649dc34d4d012deb4c14"
+   "bytes": 22530720,
+   "md5": "5cdf4302f1bd6ba030123c5ff7842567"
   },
   {
    "name": "fx1",
    "file": "fx1.pck",
-   "bytes": 44189524,
-   "md5": "682686725490c631b0c29ad0f07c9b7a"
+   "bytes": 45001776,
+   "md5": "0f481e9adac2ee44c7d92693f6629459"
   },
   {
    "name": "fx2",
    "file": "fx2.pck",
-   "bytes": 8822348,
-   "md5": "bb6998bedae1b8dd8d6f4c162933d69c"
+   "bytes": 41304668,
+   "md5": "d291623e48f04a919e00657859320f57"
+  },
+  {
+   "name": "fx3",
+   "file": "fx3.pck",
+   "bytes": 42648840,
+   "md5": "4f6fa63c592905ce78b217b34a10b6c5"
+  },
+  {
+   "name": "fx4",
+   "file": "fx4.pck",
+   "bytes": 41297616,
+   "md5": "e07397ee682c44e6c948596e6c1f6408"
+  },
+  {
+   "name": "npcs",
+   "file": "npcs.pck",
+   "bytes": 44822492,
+   "md5": "765d438ffb5d52dae5dc5840697ccbb4"
+  },
+  {
+   "name": "intro",
+   "file": "intro.pck",
+   "bytes": 20459548,
+   "md5": "ea92fd0f2bf5372bd0a75e3624e2646b"
+  },
+  {
+   "name": "env_cc0",
+   "file": "env_cc0.pck",
+   "bytes": 3576660,
+   "md5": "33ad67721bb464ea80ea1e3b52d07526"
   }
  ]
 }
