@@ -1,64 +1,95 @@
 {
  "packs": [
   {
+   "name": "intro",
+   "file": "intro.pck",
+   "bytes": 3163828,
+   "md5": "7dd25db226d549ffa43657c5f5cd8c7a",
+   "stage": "title"
+  },
+  {
    "name": "chars",
    "file": "chars.pck",
-   "bytes": 24719524,
-   "md5": "4f1e238e673b5cb8e9634a533750e4e7"
-  },
-  {
-   "name": "env1",
-   "file": "env1.pck",
-   "bytes": 44011388,
-   "md5": "bd5df79d12dec7f5113ffc07270bef2e"
-  },
-  {
-   "name": "env2",
-   "file": "env2.pck",
-   "bytes": 43341580,
-   "md5": "f95fad2ea30ecf7be9c23c6a58e458aa"
-  },
-  {
-   "name": "env3",
-   "file": "env3.pck",
-   "bytes": 41493928,
-   "md5": "e5ec2db198347dfbb4b14170b5b63f9d"
-  },
-  {
-   "name": "monsters",
-   "file": "monsters.pck",
-   "bytes": 20940236,
-   "md5": "c2b850866bcda136831ba6f08c7f0ccb"
+   "bytes": 21781540,
+   "md5": "1b635f38ea6f069a2b6ba8317b1d0b3f",
+   "stage": "village"
   },
   {
    "name": "weapons",
    "file": "weapons.pck",
-   "bytes": 12371360,
-   "md5": "e0e3b348830cf9bc087ad93fe455cb1b"
-  },
-  {
-   "name": "fx",
-   "file": "fx.pck",
-   "bytes": 20162428,
-   "md5": "84304a6678c3c63da10cc750e7c9174f"
+   "bytes": 10573280,
+   "md5": "abf169d972d9de3082a01efd70bc839d",
+   "stage": "village"
   },
   {
    "name": "npcs",
    "file": "npcs.pck",
-   "bytes": 26961540,
-   "md5": "c2b83387a9f081223169021c5ec6ce19"
+   "bytes": 8608516,
+   "md5": "7e9bb862daadb6ed8243bf1cbf9a324a",
+   "stage": "village"
   },
   {
-   "name": "intro",
-   "file": "intro.pck",
-   "bytes": 20414148,
-   "md5": "21b6238c06b416cd73a7890cfff114bd"
+   "name": "env1",
+   "file": "env1.pck",
+   "bytes": 43524468,
+   "md5": "a56d8b94f2b961d02e3fdfd793f54b42",
+   "stage": "village"
+  },
+  {
+   "name": "env2",
+   "file": "env2.pck",
+   "bytes": 13863792,
+   "md5": "1354d73e4b811e2a25317cfe22a852a7",
+   "stage": "village"
+  },
+  {
+   "name": "envlab",
+   "file": "envlab.pck",
+   "bytes": 10039772,
+   "md5": "ef4e11b180f190ed729237ae344e7a83",
+   "stage": "floor"
+  },
+  {
+   "name": "fx",
+   "file": "fx.pck",
+   "bytes": 9060348,
+   "md5": "6fc404e81ad5d5eb7206c785b10d14e3",
+   "stage": "floor"
+  },
+  {
+   "name": "monsters1",
+   "file": "monsters1.pck",
+   "bytes": 44653996,
+   "md5": "98ffd6e4685596cd645360d6d719d7fc",
+   "stage": "floor"
+  },
+  {
+   "name": "monsters2",
+   "file": "monsters2.pck",
+   "bytes": 19222024,
+   "md5": "19d9ad5cdf06726968f3cf3e5d72179c",
+   "stage": "floor"
+  },
+  {
+   "name": "env_f2",
+   "file": "env_f2.pck",
+   "bytes": 10505236,
+   "md5": "96b0180d2ab0f07362997d88f2319507",
+   "stage": "floor"
   },
   {
    "name": "env_cc0",
    "file": "env_cc0.pck",
    "bytes": 3531196,
-   "md5": "67d142fb7cbffe973f474998d571662d"
+   "md5": "36602af9ba35554ca9016913b0dd4c30",
+   "stage": "floor"
+  },
+  {
+   "name": "intro_more",
+   "file": "intro_more.pck",
+   "bytes": 2700864,
+   "md5": "73e191d2dd918c40564c22345dc51862",
+   "stage": "extra"
   }
  ]
 }
